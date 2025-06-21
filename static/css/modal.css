@@ -1,0 +1,157 @@
+.modal {
+  display: none;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  font-size: 1em;
+}
+
+.btn-close {
+  color: #aaa;
+  font-size: 30px;
+  text-decoration: none;
+  position: absolute;
+  right: 5px;
+  top: 0;
+}
+
+.btn-close:hover {
+  color: #919191;
+}
+
+.modal-dialog {
+  background: #F0F3EC;
+  border-radius: 6px;
+  box-shadow: 5px 2px 12px rgba(0, 0, 0, 0.3);
+  width: 80%;
+  min-height: 230px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+.modal-body {
+  padding: 20px 20px;
+  height: calc(100% - 105px);
+  overflow: auto;
+}
+
+.modal-header h2 {
+  font-size: 20px;
+}
+
+.modal-footer {
+  border-top: #eee solid 1px;
+  text-align: right;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+  bottom: 0;
+}
+
+.btn {
+  background: #428bca;
+  border: #357ebd solid 1px;
+  border-radius: 3px;
+  color: #fff;
+  display: inline-block;
+  font-size: 12px;
+  padding: 2px 5px;
+  text-decoration: none;
+  text-align: center;
+  min-width: 60px;
+  position: relative;
+  transition: color .1s ease;
+}
+
+.btn-new {
+  background: #fff;
+  border: #357ebd solid 1px;
+  border-radius: 3px;
+  color: #428bca;
+  display: inline-block;
+  font-size: 12px;
+  padding: 2px 5px;
+  text-decoration: none;
+  text-align: center;
+  min-width: 60px;
+  position: relative;
+  transition: color .1s ease;
+}
+
+.modal-header,
+.modal-footer {
+  padding: 10px 20px;
+}
+
+.modal-header {
+  border-bottom: #eee solid 1px;
+  height: 20px;
+}
+
+
+
+
+.modalWord {
+  text-align: center;
+  font-size: 1.6rem;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 30px;
+
+
+}
+
+.modalTxt {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 28px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.pswWrap {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.pswInput {
+  width: 80%;
+  padding: 5px 15px;
+  border: none;
+  outline: none;
+  height: 40px;
+  line-height: 40px;
+  box-sizing: border-box;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+  font-size: 1.2em;
+}
+
+.sureBtn {
+  width: 20%;
+  text-align: center;
+  background: #81A367;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+  font-size: 1em;
+}
